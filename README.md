@@ -1,5 +1,5 @@
 # Best_league
-Ce projet développe un modèle d'IA pour prédire les points des équipes de football dans les grandes ligues européennes (Ligue 1, LaLiga, Bundesliga, Serie A, Premier League). Il inclut la collecte, le nettoyage, le développement et l'évaluation du modèle.
+Ce projet développe un modèle d'IA pour prédire les points des équipes de football dans les grandes ligues européennes (Ligue 1, LaLiga, Bundesliga, Serie A, Premier League). Il inclut la collecte, le nettoyage, le développement et l'évaluation du modèle et determiner la meilleur league a streamer.
 
 ## Installation et Configuration
 
