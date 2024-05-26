@@ -14,7 +14,7 @@ Exécutez la commande suivante pour installer les dépendances nécessaires :
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Structure du Répertoire
 
 - `Extract/` : Contient les fichiers CSV collectés pour chaque ligue et le scripts qui permet de faire le webscrapping.
@@ -75,6 +75,6 @@ Les histogrammes et les box plots pour la distribution des points des équipes d
 - [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
 - [Seaborn Documentation](https://seaborn.pydata.org/)
 
-##CONCLUSION
+## CONCLUSION
 
 La Premier League anglaise se distingue comme la meilleure ligue à inclure dans le nouveau package de streaming. Elle offre un mélange optimal de compétitivité, performances européennes, popularité mondiale, qualité des joueurs et croissance continue. Intégrer la Premier League dans le package assurera un contenu attrayant et de haute qualité, capable de séduire un large public et de maximiser les abonnements au service de streaming.
