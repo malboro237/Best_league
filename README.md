@@ -13,13 +13,16 @@ Ce projet développe un modèle d'IA pour prédire les points des équipes de fo
 Exécutez la commande suivante pour installer les dépendances nécessaires :
 
 ```bash
-pip install pandas numpy scikit-learn beautifulsoup4 requests matplotlib seaborn
+pip install -r requirements.txt
 
 ## Structure du Répertoire
 
 - `Extract/` : Contient les fichiers CSV collectés pour chaque ligue et le scripts qui permet de faire le webscrapping.
 - `data_clean/` : Contient les scripts Python pour la préparation, le netoyage des données.
 - `ai_model/` : Contient l'entraînement du modèle, l'évaluation et les résultats de l'évaluation.
+- `requirements.txt` : Contient les dépendances nécessaires pour l'installation.
+- `visualisation/` : Contient le script de l'analyse et de la visualisation.
+
 
 ## Structure du Projet
 
@@ -29,15 +32,14 @@ pip install pandas numpy scikit-learn beautifulsoup4 requests matplotlib seaborn
 - `transform_and_load.py` : Script pour préparer et nettoyer les données.
 - `traitement.py` : Script pour entraîner le modèle d'IA.
 - `evaluat.py` : Script pour évaluer les performances du modèle.
-- `analyze_results.py` : Script pour analyser et visualiser les résultats.
+- `visual.py` : Script pour analyser et visualiser les résultats.
 
 
 ###  Résultats et Évaluation
 
 #### Objectif :
-Présenter les résultats de l'entraînement et de l'évaluation du modèle, y compris les visualisations.
+Présenter les résultats de l'entraînement et de l'évaluation du modèle.
 
-```markdown
 ## Résultats et Évaluation
 
 ### Performances du Modèle
@@ -52,7 +54,7 @@ Présenter les résultats de l'entraînement et de l'évaluation du modèle, y c
 
 ### Visualisations
 
-Les histogrammes et les box plots pour la distribution des points des équipes dans chaque ligue sont disponibles dans le répertoire `results/`.
+Les histogrammes et les box plots pour la distribution des points des équipes dans chaque ligue sont disponibles dans le répertoire `visualisation/`.
 
 
 ## Améliorations Futures
@@ -73,3 +75,6 @@ Les histogrammes et les box plots pour la distribution des points des équipes d
 - [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
 - [Seaborn Documentation](https://seaborn.pydata.org/)
 
+##CONCLUSION
+
+La Premier League anglaise se distingue comme la meilleure ligue à inclure dans le nouveau package de streaming. Elle offre un mélange optimal de compétitivité, performances européennes, popularité mondiale, qualité des joueurs et croissance continue. Intégrer la Premier League dans le package assurera un contenu attrayant et de haute qualité, capable de séduire un large public et de maximiser les abonnements au service de streaming.
